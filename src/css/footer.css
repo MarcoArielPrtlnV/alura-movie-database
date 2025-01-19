@@ -1,0 +1,13 @@
+.icon-link {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-link:hover,
+  .icon-link:nth-child(2):hover,
+  .icon-link:nth-child(3):hover
+   {
+    color: #6cc644; 
+  }
+  

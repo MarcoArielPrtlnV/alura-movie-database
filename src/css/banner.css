@@ -1,0 +1,26 @@
+
+.banner img {
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out; /* Transición más suave en el deslizamiento */
+}
+
+.carousel-inner {
+  overflow: hidden; /* Ocultar cualquier contenido fuera del área del carousel */
+}
+
+/* Mejorar la transición entre las imágenes */
+.carousel-item {
+  transition: transform 1s ease-in-out; /* Transición suave entre cada slide */
+}
+
+/* Añadir sombra suave a las imágenes para un efecto más estilizado */
+.carousel-item img {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Imagen crezca un poco al pasar entre los slides */
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  transition: transform 1s ease-in-out;
+}

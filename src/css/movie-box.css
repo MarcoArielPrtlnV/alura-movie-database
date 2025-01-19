@@ -1,0 +1,24 @@
+/* MovieBox.css */
+.movie-box:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la caja al pasar el ratón */
+}
+  
+.movie-image:hover {
+    transform: scale(1.1); /* Aumenta la imagen cuando se pasa el ratón */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Añade sombra en la imagen */
+}
+  
+.movie-box .btn-dark:hover {
+    background-color: #6cc644; /* Cambia el color del botón al pasar el ratón */
+}
+  
+  /* Estilo para el iframe del trailer */
+.trailer-container iframe {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+  
+.card-body {
+    padding: 15px;
+}
+  
